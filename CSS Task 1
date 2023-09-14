@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        .table-container {
+            width: 70%; /* Adjust the width of the container */
+            margin: 20px auto;
+        }
+
+        .table {
+            display: table;
+            border-collapse: separate;
+            border-spacing: 0;
+            background-color: cyan;
+            border-radius: 15px; /* Increase the border-radius for larger rounding */
+            overflow: hidden; /* Prevent border radius clipping */
+            width: 100%; /* Make the table fill the container */
+        }
+
+        .row {
+            display: table-row;
+        }
+
+        .cell {
+            display: table-cell;
+            border: 2px solid black; /* Increase border width for better visibility */
+            padding: 12px; /* Increase padding for larger cells */
+            border-radius: 15px; /* Rounded borders for cells */
+            font-size: 18px; /* Increase font size */
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <div class="table">
+            <div class="row">
+                <div class="cell">First Name</div>
+                <div class="cell">Last Name</div>
+                <div class="cell">Age</div>
+            </div>
+            <div class="row">
+                <div class="cell">Jill</div>
+                <div class="cell">Smith</div>
+                <div class="cell">50</div>
+            </div>
+            <div class="row">
+                <div class="cell">Eve</div>
+                <div class="cell">Jackson</div>
+                <div class="cell">94</div>
+            </div>
+            <div class="row">
+                <div class="cell">John</div>
+                <div class="cell">Doe</div>
+                <div class="cell">80</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
