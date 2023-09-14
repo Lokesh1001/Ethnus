@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>This is task3</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Links Example</title>
+    <style>
+        .box {
+            width: 600px; /* Increased the width to accommodate the links side by side */
+            padding: 10px;
+            border: 2px solid #000;
+            background-color: #f0f0f0;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p style="text-align: left;">Click any of the following links</p>
+                 <a class="link" href="https://example.com/news" target="_blank">Opens in news</a>
+        <a class="link" href="https://example.com/self" target="_blank">Opens in self</a>
+        <a class="link" href="https://example.com/parent" target="_parent">Opens in parent</a>
+        <a class="link" href="https://example.com/body">Opens in body</a>
+        <a class="link" href="mailto:youremail@example.com">Send email</a>
+    </div>
+</body>
 </html>
